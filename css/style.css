@@ -40,9 +40,14 @@
 /*Style-body*/
 body {
     color: var(--primary);
-    font-family: var(--third-family);
+    font-family: "Roboto";
     font-weight: 400;
+  
 }
+.title-span {
+  color: var(--color-brand);
+}
+
 .header-link, .footer-link {
     font-style: normal;
 }
@@ -70,19 +75,22 @@ ul {
 .header-link {
 color: #011c44;
 text-decoration: none;
+Font-weight: 400;
+font-size: 18px;
 }
 .header-link:hover {
     color: var(--color-brand);
     
 }
-.footer-link {
-color:#fff;
-text-decoration: none;
+.main-title {
+font-weight: 700;
+font-size: 140px;
+line-height: 81%;
+text-transform: capitalize;
+text-align: left;
+font-family: "Play";
 }
-.footer-link:hover {
-    color: var(--color-brand);
-    text-decoration: none;
-    }
+
 /*Style-title*/
 .section-title {
     color: var(--primary);
@@ -93,3 +101,33 @@ text-decoration: none;
     font-weight: 700;
     font-size: 140px;
 }
+/*Section about-us-section*/
+.about-us-section {
+text-align: left;
+font-weight: 400;
+font-size: 22px;
+}
+/*Section Why choose us*/
+
+.Why-choose-us  {
+  font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+text-align: center;
+color: #000;
+}
+
+/*Section our-procedures-section*/
+
+/*Section contacts */
+.footer-link {
+color:#fff;
+text-decoration: none;
+Font-weight: 400;
+font-size: 18px;
+}
+.footer-link:hover {
+    color: var(--color-brand);
+    text-decoration: none;
+    }
+
